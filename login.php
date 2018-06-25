@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Data Fetching</title>
+  <title>Login</title>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -23,8 +23,8 @@
   	<div class="input-group">
   		<button type="submit" class="btn" name="login_user">Login</button>
   	</div>
-  	<p>
-  		Not yet a member? <a href="register.php">Sign up</a>
+  	<p style="color:white;font-size:30px">
+  		Not yet a member? <a href="register.php" style="text-decoration: none;color:white;"><strong>Sign up</strong></a>
   	</p>
   </form>
 </body>

@@ -48,18 +48,11 @@ if (isset($_POST['reg_user'])) {
 
   	$query = "INSERT INTO users (username, email, password) 
   			  VALUES('$username', '$email', '$password')" ;
-          echo $query;
-          $result = mysqli_query($db, $query)
-            	if($result){
+          $result = mysqli_query($db, $query);
     $_SESSION['username'] = $username;
     $_SESSION['success'] = "You are now logged in";
     header('location: index.php');
-              }
-              else {
-                echo 'erro';
-              }
-              die('2');
-
+            
   }
 }}
 if (isset($_POST['login_user'])) {

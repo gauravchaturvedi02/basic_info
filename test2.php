@@ -7,7 +7,7 @@ $urlValue =urlencode($query);
 $handle =curl_init();
 //$urlResults=;
 curl_setopt_array($handle, array(
-                  CURLOPT_URL=>"http://in.search.yahoo.com/search?p=".$urlValue,
+                  CURLOPT_URL=>"http://www.google.com/search?q=".$urlValue,
                   CURLOPT_POST=>false,
                   // CURLOPT_POSTFIELDS =>"",
                   CURLOPT_RETURNTRANSFER =>true
